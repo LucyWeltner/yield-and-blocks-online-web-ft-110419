@@ -9,6 +9,6 @@ end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name[0] == "T"
-    puts "Hi, #{name}"
+    return "Hi, #{name}"
   end
 end
